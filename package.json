@@ -1,0 +1,39 @@
+{
+  "name": "jbee",
+  "version": "0.0.1",
+  "description": "About Jbee cli",
+  "main": "index.js",
+  "bin": {
+    "jbee": "./bin/run"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/lib"
+  ],
+  "scripts": {
+    "start": "./bin/run",
+    "prebuild": "rm -rf lib",
+    "build": "tsc -b",
+    "lint": "eslint . --ext .ts -c .eslintrc.js"
+  },
+  "keywords": [
+    "introduce",
+    "Jbee"
+  ],
+  "author": "JaeYeopHan",
+  "license": "MIT",
+  "dependencies": {
+    "ink": "^2.7.1",
+    "react": "^16.13.1",
+    "typescript": "^3.9.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.42",
+    "@typescript-eslint/eslint-plugin": "^3.6.0",
+    "@typescript-eslint/parser": "^3.6.0",
+    "eslint": "^7.4.0"
+  }
+}
