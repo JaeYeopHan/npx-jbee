@@ -1,5 +1,6 @@
 # npx-jbee
 
+[![npm download count](https://badgen.net/npm/dt/jbee)](https://badgen.net/npm/dt/jbee)
 [![npm version](https://badge.fury.io/js/jbee.svg)](https://badge.fury.io/js/jbee)
 [![custom badge](https://img.shields.io/badge/introduce-myself-orange)](https://img.shields.io/badge/introduce-myself-orange)
 [![jbee about](https://img.shields.io/badge/about-jbee-yellow)](https://jbee.io/about)
